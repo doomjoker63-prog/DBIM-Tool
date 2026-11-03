@@ -1,0 +1,12 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch();
+const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+const reqs = [];
+p.on('response', r => { const u = r.url(); if (!/_next\/static|fonts\.g/.test(u)) reqs.push(`${r.status()} ${r.request().resourceType()} ${u}`); });
+await p.goto('https://dbimtoolkit.digifootprint.gov.in/visual-library', { waitUntil: 'networkidle', timeout: 60000 });
+await p.waitForTimeout(3000);
+console.log(await p.title());
+console.log((await p.locator('body').innerText()).slice(0, 1500));
+console.log('imgs', await p.locator('img').count());
+console.log(reqs.slice(0, 40).join('\n'));
+await b.close();

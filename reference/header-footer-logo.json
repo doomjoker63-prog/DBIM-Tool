@@ -1,0 +1,62 @@
+{
+  "_source": {
+    "manual": "DBIM v3.0",
+    "section": "5.1 - 5.6",
+    "flipbook_page": 47,
+    "printed_page": 27
+  },
+  "emblem": {
+    "source": "authorised only",
+    "keep_ratio": true,
+    "elements_inseparable": true,
+    "colour": {
+      "on_light": "black",
+      "on_dark": "white"
+    }
+  },
+  "lockups": {
+    "1": "Government of India (Bharat Sarkar)",
+    "2": "Ministries, Departments",
+    "3A": "Organisations/authorities allowed to use the State Emblem (with emblem)",
+    "3B": "Organisations not allowed to use the State Emblem (without emblem)"
+  },
+  "header": {
+    "fixed": [
+      "engagement bar (search)",
+      "user controls: skip to main content, language selection, accessibility controls",
+      "global navigation menu"
+    ],
+    "dynamic": [
+      "organisation name (lockup)",
+      "co-branding logos, max 2",
+      "login/register if post-login workflow"
+    ],
+    "variants": {
+      "Header 1": "Central Ministries & Departments (Lockup 2)",
+      "Header 2": "Other orgs allowed emblem (Lockup 3A)",
+      "Header 3": "Orgs not allowed emblem (Lockup 3B)"
+    },
+    "sticky_on_scroll": true
+  },
+  "footer": {
+    "background": "key colour (darkest shade) of selected primary group",
+    "mandatory": [
+      "Website Policies",
+      "Sitemap (min 2 levels)",
+      "Related Links",
+      "Help",
+      "Feedback",
+      "Contact Us",
+      "Last Updated On"
+    ],
+    "optional": [
+      "Archives",
+      "Social Media Links"
+    ],
+    "lineage_examples": {
+      "ministry": "The website belongs to Ministry of ..., Government of India",
+      "department": "The website belongs to Department of ..., Ministry of ..., Government of India",
+      "psu": "This is the official Website of ..., a Public Sector Undertaking of the Government of India under the Ministry of ..."
+    }
+  }
+}

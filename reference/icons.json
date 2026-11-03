@@ -1,0 +1,33 @@
+{
+  "_source": {
+    "manual": "DBIM v3.0",
+    "section": "3.3 - 3.7",
+    "flipbook_page": 32,
+    "printed_page": 12
+  },
+  "styles": [
+    "line",
+    "filled"
+  ],
+  "one_style_only": true,
+  "sizes_px": [
+    24,
+    32,
+    48,
+    64
+  ],
+  "size_note": "Each size includes 2px padding on every side (live area 20/28/44/60). Source: Figures 8-9 (page 33), read from image.",
+  "formats": [
+    "png",
+    "webp",
+    "svg"
+  ],
+  "allowed_colours": [
+    "key colour (darkest shade) of selected group",
+    "#FFFFFF"
+  ],
+  "must_keep_aspect_ratio": true,
+  "on_image_contrast": "sufficient; example: black overlay 80% transparency under inclusive white icon",
+  "source_library": "DBIM Toolkit > Visual Components Library",
+  "icon_bank_status": "NOT YET DOWNLOADED. Toolkit pages are JS-rendered; fetch with Playwright in Phase 0b to build image hashes."
+}

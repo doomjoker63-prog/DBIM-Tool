@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Top bar fixture</title>
+<style>
+  body { margin: 0; font-family: Arial, sans-serif; }
+  .util-bar { background: #111; color: #fff; padding: 8px 40px; display: flex; gap: 16px; justify-content: flex-end; }
+  .util-bar button { background: none; border: 0; color: #fff; font-size: 16px; cursor: pointer; }
+  header { padding: 18px 40px; border-bottom: 1px solid #ccc; }
+</style></head>
+<body>
+<!-- accessibility and language controls live in a bar ABOVE the <header> element, as on many government portals -->
+<div class="util-bar"><a href="#main">Skip to main content</a><button title="Decrease text size">A-</button><button title="Default text size">A</button><button title="Increase text size">A+</button><button>Dark theme</button><button>Language: English</button></div>
+<header><b>Example Organisation</b> <nav><a href="/a">About</a> <a href="/b">Contact</a></nav><form role="search"><input type="search" placeholder="Search"></form></header>
+<main id="main"><h1>Welcome</h1><p>Some page content that is long enough to be sampled by the audit.</p></main>
+<footer><p>Footer</p></footer>
+</body></html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #2d2d2d;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        opacity: .97;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #2d2d2d;
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        opacity: .94;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M38.94,2.94h-6v4.12h6V2.94Z"/>
+  <path class="cls-2" d="M38.94,2.94h-6v4.12h6V2.94Z"/>
+  <path class="cls-2" d="M31.81,13.94c-4.92.54-7.83,3.25-8.75,8.12h17.88c-.96-5.04-4-7.75-9.12-8.12Z"/>
+  <path class="cls-2" d="M31.81,13.94c-4.92.54-7.83,3.25-8.75,8.12h17.88c-.96-5.04-4-7.75-9.12-8.12Z"/>
+  <path class="cls-2" d="M43.94,23.94h-24v2.12h24v-2.12Z"/>
+  <path class="cls-2" d="M43.94,23.94h-24v2.12h24v-2.12Z"/>
+  <path class="cls-2" d="M24.94,33.06v-5.12h-2v5.12h2Z"/>
+  <path class="cls-2" d="M24.94,33.06v-5.12h-2v5.12h2Z"/>
+  <path class="cls-2" d="M28.94,33.06v-5.12h-2v5.12h2Z"/>
+  <path class="cls-2" d="M28.94,33.06v-5.12h-2v5.12h2Z"/>
+  <path class="cls-2" d="M32.94,33.06v-5.12h-2v5.12h2Z"/>
+  <path class="cls-2" d="M32.94,33.06v-5.12h-2v5.12h2Z"/>
+  <path class="cls-2" d="M36.94,33.06v-5.12h-2v5.12h2Z"/>
+  <path class="cls-2" d="M36.94,33.06v-5.12h-2v5.12h2Z"/>
+  <path class="cls-2" d="M40.94,33.06v-5.12h-2v5.12h2Z"/>
+  <path class="cls-2" d="M40.94,33.06v-5.12h-2v5.12h2Z"/>
+  <path class="cls-2" d="M50.94,34.94H12.94v2.12h38v-2.12Z"/>
+  <path class="cls-2" d="M50.94,34.94H12.94v2.12h38v-2.12Z"/>
+  <path class="cls-2" d="M47.94,38.94H15.94v19.12h8v-7.12h-3v-5.88h22v5.88h-3v7.12h8v-19.12ZM29.06,42.94h-2.12v-1.88h2.12v1.88ZM33.06,42.94h-2.12v-1.88h2.12v1.88ZM37.06,42.94h-2.12v-1.88h2.12v1.88Z"/>
+  <path class="cls-2" d="M47.94,38.94H15.94v19.12h8v-7.12h-3v-5.88h22v5.88h-3v7.12h8v-19.12ZM29.06,42.94h-2.12v-1.88h2.12v1.88ZM33.06,42.94h-2.12v-1.88h2.12v1.88ZM37.06,42.94h-2.12v-1.88h2.12v1.88Z"/>
+  <path class="cls-2" d="M13.94,42.94H1.94v2.12h12v-2.12Z"/>
+  <path class="cls-2" d="M13.94,42.94H1.94v2.12h12v-2.12Z"/>
+  <path class="cls-2" d="M61.94,42.94h-12v2.12h12v-2.12Z"/>
+  <path class="cls-2" d="M61.94,42.94h-12v2.12h12v-2.12Z"/>
+  <path class="cls-2" d="M5.94,58.06v-11.12h-2v11.12h2Z"/>
+  <path class="cls-2" d="M5.94,58.06v-11.12h-2v11.12h2Z"/>
+  <path class="cls-2" d="M7.94,46.94v11.12h6v-11.12h-2v9h-2v-9h-2Z"/>
+  <path class="cls-2" d="M7.94,46.94v11.12h6v-11.12h-2v9h-2v-9h-2Z"/>
+  <path class="cls-2" d="M40.94,46.94h-18v2.12h18v-2.12Z"/>
+  <path class="cls-2" d="M40.94,46.94h-18v2.12h18v-2.12Z"/>
+  <path class="cls-2" d="M51.94,46.94h-2v11.12h2v-11.12Z"/>
+  <path class="cls-2" d="M51.94,46.94h-2v11.12h2v-11.12Z"/>
+  <path class="cls-2" d="M53.94,46.94v11.12h2v-11.12h-2Z"/>
+  <path class="cls-2" d="M53.94,46.94v11.12h2v-11.12h-2Z"/>
+  <path class="cls-2" d="M57.94,46.94v11.12h2v-11.12h-2Z"/>
+  <path class="cls-2" d="M57.94,46.94v11.12h2v-11.12h-2Z"/>
+  <path class="cls-2" d="M27.94,58.06v-7.12h-2v7.12h2Z"/>
+  <path class="cls-2" d="M27.94,58.06v-7.12h-2v7.12h2Z"/>
+  <path class="cls-2" d="M33.94,58.06v-7.12h-4v7.12h4Z"/>
+  <path class="cls-2" d="M33.94,58.06v-7.12h-4v7.12h4Z"/>
+  <path class="cls-2" d="M37.94,58.06v-7.12h-2v7.12h2Z"/>
+  <path class="cls-2" d="M37.94,58.06v-7.12h-2v7.12h2Z"/>
+  <path class="cls-2" d="M1.94,62.06h60v-2.12H1.94v2.12Z"/>
+  <path class="cls-2" d="M1.94,62.06h60v-2.12H1.94v2.12Z"/>
+  <path class="cls-2" d="M26.94,42.94h2.12v-1.88h-2.12v1.88Z"/>
+  <path class="cls-2" d="M26.94,42.94h2.12v-1.88h-2.12v1.88Z"/>
+  <path class="cls-3" d="M26.94,42.94h2.12v-1.88h-2.12v1.88Z"/>
+  <path class="cls-2" d="M30.94,42.94h2.12v-1.88h-2.12v1.88Z"/>
+  <path class="cls-2" d="M30.94,42.94h2.12v-1.88h-2.12v1.88Z"/>
+  <path class="cls-3" d="M30.94,42.94h2.12v-1.88h-2.12v1.88Z"/>
+  <path class="cls-2" d="M34.94,42.94h2.12v-1.88h-2.12v1.88Z"/>
+  <path class="cls-2" d="M34.94,42.94h2.12v-1.88h-2.12v1.88Z"/>
+  <path class="cls-3" d="M34.94,42.94h2.12v-1.88h-2.12v1.88Z"/>
+  <line class="cls-1" x1="32" y1="2.94" x2="32" y2="12.18"/>
+</svg>

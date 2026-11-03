@@ -1,0 +1,54 @@
+# TEMPLATE - not executed or validated in this repository. Copy to .github/workflows/dbim-scan.yml and adapt.
+name: DBIM scan
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'   # Mondays 03:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-python@v5          # only needed for --format docx
+        with:
+          python-version: '3.12'
+      - run: pip install python-docx
+
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: node dist/cli.js doctor
+
+      - name: Scan
+        run: >
+          node dist/cli.js scan https://www.example.gov.in/
+          --max-pages 60 --max-minutes 30 --delay 1000
+          --user-agent "LTPL-DBIM-Audit/1.0 (+https://levithan.tech)"
+          --fail-on high
+          --format xlsx
+          --junit results/junit.xml
+
+      - name: Keep the reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dbim-runs
+          path: |
+            runs/
+            results/
+          retention-days: 30
+
+      - name: Publish test results
+        if: always()
+        uses: mikepenz/action-junit-report@v4
+        with:
+          report_paths: results/junit.xml

@@ -1,0 +1,74 @@
+{
+  "_source": {
+    "manual": "DBIM v3.0",
+    "section": "2.1 / 2.2",
+    "flipbook_page": 26,
+    "printed_page": 6
+  },
+  "_note": "Primary hex codes transcribed from Figure 1 (image, page 26) - verify against the Toolkit before release. Each group: index 0 is the KEY colour (darkest shade).",
+  "primary": {
+    "Burgundy": [
+      "#6C1340",
+      "#A32966",
+      "#DB70A6",
+      "#EBADCC",
+      "#FAEBF2"
+    ],
+    "Purple": [
+      "#29136C",
+      "#4729A3",
+      "#8B70DB",
+      "#BDADEB",
+      "#EEEBFA"
+    ],
+    "Blue": [
+      "#162F6A",
+      "#214AAB",
+      "#5279D7",
+      "#A3BBF3",
+      "#D2DFFF"
+    ],
+    "Green": [
+      "#0F5757",
+      "#2D8686",
+      "#75BDBD",
+      "#A6D9D9",
+      "#D9F2F2"
+    ],
+    "Chrome Yellow": [
+      "#5D3E00",
+      "#916100",
+      "#DDA73A",
+      "#F4D390",
+      "#FFEECC"
+    ],
+    "Cinnamon Red": [
+      "#771D1D",
+      "#A72626",
+      "#D75151",
+      "#FAAAAA",
+      "#FCDADA"
+    ]
+  },
+  "rules": [
+    "Exactly one colour group from the primary palette",
+    "Gradients allowed between any two variants of the selected group",
+    "Footer background = key colour (darkest shade) of the selected group",
+    "Icons = key colour of selected group OR inclusive white"
+  ],
+  "functional": {
+    "Deep Earthy Brown": "#150202",
+    "Black": "#000000",
+    "Deep Blue": "#1D0A69",
+    "Liberty Green": "#198754",
+    "Linen": "#EBEAEA",
+    "Inclusive White": "#FFFFFF",
+    "Mustard Yellow": "#FFC107",
+    "Coral Red": "#DC3545",
+    "Grey 01": "#C6C6C6",
+    "Grey 02": "#8E8E8E",
+    "Grey 03": "#606060",
+    "Blue": "#0D6EFD"
+  },
+  "functional_note": "Manual text prints Deep Blue as '#1DOA69' (letter O); the flipbook accent #1D0A69 confirms the digit zero. Usage-per-colour mapping is in Table 1 (pages 27-28) and needs a manual pass."
+}

@@ -1,0 +1,94 @@
+{
+  "_source": {
+    "manual": "DBIM v3.0",
+    "section": "4.1 - 4.5",
+    "flipbook_page": 39,
+    "printed_page": 19
+  },
+  "typeface": "Noto Sans",
+  "all_scripts_noto_sans": true,
+  "alignment": {
+    "body": "left",
+    "table_text": "left",
+    "table_numbers": "right",
+    "table_column_names": "center"
+  },
+  "all_caps_allowed_for_long_text": false,
+  "desktop_scale_px": {
+    "Heading 1": {
+      "size": 36,
+      "weights": [
+        "Bold",
+        "Semi Bold",
+        "Medium"
+      ]
+    },
+    "Heading 2": {
+      "size": 24,
+      "weights": [
+        "Bold",
+        "Semi Bold",
+        "Medium"
+      ]
+    },
+    "Heading 3/Subtitle": {
+      "size": 20,
+      "weights": [
+        "Bold",
+        "Semi Bold",
+        "Medium"
+      ]
+    },
+    "Paragraph 1": {
+      "size": 16,
+      "weights": [
+        "Bold",
+        "Regular"
+      ]
+    },
+    "Paragraph 2": {
+      "size": 14,
+      "weights": [
+        "Bold",
+        "Semi Bold",
+        "Regular"
+      ]
+    },
+    "Small Text 1": {
+      "size": 12,
+      "weights": [
+        "Semi Bold",
+        "Regular"
+      ]
+    }
+  },
+  "mobile_scale_px": {
+    "Heading 1": 24,
+    "Heading 2": 20,
+    "Heading 3/Subtitle": 16,
+    "Paragraph 1": 14,
+    "Paragraph 2": 12,
+    "Small Text 1": 10
+  },
+  "mobile_weights_note": "Weights for mobile (Table 4, page 42) not yet transcribed; assumed same families as desktop - verify.",
+  "line_height_ratio": [
+    1.2,
+    1.5
+  ],
+  "cta_button": {
+    "max_words": 3,
+    "states": [
+      "enabled",
+      "hover",
+      "focus",
+      "disabled"
+    ],
+    "uniform_size_and_padding": true
+  },
+  "hover_change_required_on_clickables": true,
+  "contrast": {
+    "normal_text": 4.5,
+    "large_text": 3.0,
+    "ref": "WCAG 2.1 1.4.3 / GIGW 3.0 5.2.14"
+  }
+}

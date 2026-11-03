@@ -1,0 +1,66 @@
+{
+  "_source": {
+    "manual": "DBIM v3.0",
+    "section": "7, 9, 10, Annexure A",
+    "flipbook_page": 67,
+    "printed_page": 47
+  },
+  "language": {
+    "english": "British English",
+    "no_hinglish": true,
+    "spellcheck_required": true,
+    "dates": "day before month (DD-MM-YYYY style)"
+  },
+  "documents": {
+    "accessible_pdf_only": true,
+    "title_max_chars": 250,
+    "offering_title_max_chars": 150,
+    "tender_id_max_chars": 50
+  },
+  "links": {
+    "external_must_be_https": true,
+    "periodic_validation": true
+  },
+  "cookie_consent": {
+    "banner_position": "bottom",
+    "options": [
+      "accept",
+      "reject",
+      "customize"
+    ],
+    "law": "DPDP Act 2023",
+    "no_prechecked_boxes": true,
+    "consent_in_preferred_language": true
+  },
+  "ccpss": {
+    "homepage_first_banner_is_ccps_full_width": true,
+    "ccps_posts_px": "960x244",
+    "api_from": "DBIM Toolkit"
+  },
+  "homepage": {
+    "top_banner_px": [
+      "1800x338",
+      "1800x500",
+      "1800x600"
+    ],
+    "header": "Header 1 (sticky)"
+  },
+  "search": {
+    "in_header": true,
+    "handles": [
+      "HTML pages",
+      "PDFs",
+      "image metadata"
+    ],
+    "empty_query_handling": true,
+    "chatbot_bottom_right_floating": "if used"
+  },
+  "performance": {
+    "responsive": true,
+    "lazy_load": true,
+    "cache_headers": true,
+    "minimise_third_party_scripts": true,
+    "note": "Manual gives no numeric thresholds; choose Core Web Vitals defaults and label them as tool-defaults."
+  },
+  "accessibility_ref": "GIGW 3.0 (guidelines.gov.in) / WCAG 2.1"
+}

@@ -1,0 +1,52 @@
+{
+  "_source": {
+    "manual": "DBIM v3.0",
+    "section": "5.5, 6.1",
+    "flipbook_page": 59,
+    "printed_page": 39
+  },
+  "max_bytes": {
+    "logo": 102400,
+    "background": 512000,
+    "banner_header": 512000,
+    "thumbnail": 102400,
+    "high_res_photo": 5242880
+  },
+  "formats": {
+    "image": [
+      "jpeg",
+      "jpg",
+      "png",
+      "webp"
+    ],
+    "logo": [
+      "jpeg",
+      "jpg",
+      "png",
+      "svg",
+      "webp"
+    ],
+    "icon": [
+      "png",
+      "webp",
+      "svg"
+    ]
+  },
+  "thumbnail_required_for_high_res": true,
+  "alt_text": {
+    "max_chars": 140,
+    "banned_prefixes": [
+      "image",
+      "image of",
+      "picture of"
+    ],
+    "informative_images_may_exceed": true
+  },
+  "headshot": {
+    "ratio": "1:1",
+    "face_coverage_percent": 50,
+    "background": "white"
+  },
+  "no_third_party_watermarks": true,
+  "kb_note": "Manual writes KB/MB; 1 KB treated as 1024 bytes here. Decide 1000 vs 1024 and state it in reports."
+}

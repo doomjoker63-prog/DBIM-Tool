@@ -1,0 +1,89 @@
+{
+  "name": "vapt",
+  "description": "Typography and table style of Levithan's own VAPT report (NHRC Web Application VAPT Level -1 Report.docx). Sizes are Word half-points (24 = 12 pt); widths are twips (1440 = 1 inch).",
+
+  "fonts": {
+    "cover": "Cambria",
+    "heading": "Times New Roman",
+    "toc": "Times New Roman",
+    "body": "Calibri",
+    "table": "Calibri",
+    "header": "Calibri",
+    "footer": "Times New Roman"
+  },
+
+  "sizes": {
+    "coverTitle": 40,
+    "coverDate": 28,
+    "h1": 32,
+    "h2": 28,
+    "tocHeading": 28,
+    "toc1": 22,
+    "toc2": 20,
+    "body": 24,
+    "bullet": 22,
+    "kv": 22,
+    "tableHeader": 22,
+    "checklistHeader": 20,
+    "checklist": 20,
+    "checklistCategory": 20,
+    "finding": 22,
+    "findingLabel": 22,
+    "caption": 20,
+    "header": 20,
+    "footer": 22
+  },
+
+  "colors": {
+    "coverTitle": "17365D",
+    "coverPlain": "000000",
+    "h1": "2F5496",
+    "h2": "000000",
+    "tocHeading": "2F5496",
+    "tableHeaderFill": "155F82",
+    "tableHeaderText": "FFFFFF",
+    "labelFill": "BBD4EC",
+    "categoryFill": "BBD4EC",
+    "categoryText": "1F3864",
+    "caption": "1F3864",
+    "headerText": "595959",
+    "border": "000000",
+    "verdict": {
+      "Compliance": "00B050",
+      "Non-Compliance": "FF0000",
+      "Pending": "9C6500",
+      "N/A": "595959"
+    }
+  },
+
+  "spacing": {
+    "h1": { "before": 240, "after": 120 },
+    "h2": { "before": 200, "after": 100 },
+    "body": { "after": 120, "line": 276 },
+    "bullet": { "after": 40, "line": 259 },
+    "cell": { "before": 30, "after": 30 },
+    "caption": { "before": 40, "after": 200 },
+    "cover": [120, 0, 468, 467, 302, 270, 271]
+  },
+
+  "indent": {
+    "h2": 720,
+    "h2Finding": 426
+  },
+
+  "tables": {
+    "border": { "style": "single", "size": 4 },
+    "cellMargins": { "top": 40, "bottom": 40, "left": 100, "right": 100 },
+    "kv": { "indent": 846, "widths": [2500, 6850] },
+    "legend": { "indent": 846, "widths": [1700, 5650] },
+    "checklist": { "indent": 0, "align": "center", "widths": [680, 3080, 900, 3900, 1700] },
+    "summary": { "indent": 0, "align": "center", "widths": [800, 7600, 1700] },
+    "finding": { "indent": 245, "widths": [2550, 7530] }
+  },
+
+  "page": {
+    "border": { "style": "single", "size": 4, "space": 24 },
+    "watermarkFirstPageOnly": true,
+    "headerText": true
+  }
+}
